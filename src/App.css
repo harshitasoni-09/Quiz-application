@@ -1,0 +1,117 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Menu {
+  width: 600px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: auto;
+}
+
+.Quiz {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 30px;
+}
+
+.EndScreen {
+  width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  padding: 30px;
+}
+
+.Menu button {
+  width: 300px;
+  height: 50px;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.Quiz button {
+  width: 230px;
+  height: 65px;
+  margin:5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.EndScreen button {
+  width: 230px;
+  height: 65px;
+  margin:5px;
+  border: none;
+  border-radius: 10px;
+  font-size: 19px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.Menu, .Quiz {
+  color: black;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.options button {
+  background-color: white;
+  color: black;
+}
+
+/* Styles for options when hovered */
+.options button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.Menu button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+.EndScreen button:hover {
+  background-color: darkblue;
+  color: white;
+}
+
+
+
+
+
+
